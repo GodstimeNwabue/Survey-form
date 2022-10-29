@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
@@ -96,3 +97,89 @@ textarea {
     border-radius: 0.25rem;
     cursor: pointer;
 }
+=======
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    margin: 3.125rem auto 0 auto;
+    align-items: center;
+    align-content: center;
+    border-radius: 8px;
+    background-color: #ca8282cc;
+    padding: 30px;
+    line-height: 1.4;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+i {
+    line-height: 2cm;
+}
+
+
+#page-header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+#page-body {
+    background: linear-gradient( 115deg, #b36868cc, rgba(194, 109, 109, 0.7)), 
+    url(https://pbs.twimg.com/media/FL53H1KX0AAFnRk?format=jpg&name=large);
+    color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.25rem;
+    border: 0.25rem;
+}
+
+.form-group {
+    padding: 5px;
+    font-size: medium;
+    box-shadow: currentColor;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 0.25rem;
+
+}
+
+.form-submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.25rem;
+    border: 0.25rem;
+    background-color: rgb(172, 52, 52);
+}
+
+#submit-button:hover {
+    display: block;
+    padding: 10px;
+    background-color: rgba(194, 115, 115, 0.5);
+    border-radius: 0.25rem;
+    background-color: rgb(212, 102, 102);
+    width: 100%;
+    color: inherit;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+>>>>>>> aeaf5a05966d2a4c15a8ab4021a7a287e40c07ad
