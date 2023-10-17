@@ -48,12 +48,6 @@
         max-width: 720px;
     }
 }
-/* 
-@media (max-width: 400px) {
-    #page-body {
-        background-size: cover;
-    }
-} */
 
 #page-body {
     background: linear-gradient(115deg, #b36868cc, rgba(194, 109, 109, 0.7)),
@@ -61,6 +55,7 @@
     color: rgb(0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form-control {
